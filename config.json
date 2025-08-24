@@ -1,0 +1,26 @@
+{
+  "weights": {
+    "Phone Number": 25,
+    "Email": 20,
+    "PAN": 25,
+    "IP Address": 15,
+    "Aadhaar": 30,
+    "Name": 10,
+    "Sensitive data": 40,
+    "Confidential information": 30,
+    "DATE": 10,
+    "ORG": 10,
+    "PERSON": 10,
+    "GPE": 10,
+    "LOC": 10,
+    "NORP": 10,
+    "FAC": 10,
+    "CARDINAL": 5,
+    "QUANTITY": 5,
+    "TIME": 5
+  },
+  "risk_threshold": 30,
+  "org_ignore_patterns": ["^dob$", "^aadhaar$", "^ip$"],
+  "_comment": "redact_names: true — enables redacting names (PERSON entities)",
+  "_redact_names": true
+}
